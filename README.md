@@ -19,7 +19,7 @@
 The file 'ADS_Final_Project_(EDA).ipynb' contains the code used for performing the exploratory data analysis, including initial investigation of the data, visualizations, and unsupervised learning methods. This file uses 'final_data.csv' from 'final_data.csv.zip'.
 
 ## Feature Engineering & Preprocessing
-The file ''ADS_Final_Project_(Feature_Engineering_&_Preprocessing).ipynb' contains the code used for performing feature engineering and preprocessing, including creating, transforming, and encoding variables, as well as applying preprocessing techniques where needed. This file uses 'final_data.csv' from 'final_data.csv.zip'. It results in a new csv file named 'final_preprocessed_data.csv' that contains the newly preprocessed dataset reduced to 42 features and the target.
+The file 'ADS_Final_Project_(Feature_Engineering_&_Preprocessing).ipynb' contains the code used for performing feature engineering and preprocessing, including creating, transforming, and encoding variables, as well as applying preprocessing techniques where needed. This file uses 'final_data.csv' from 'final_data.csv.zip'. It results in a new csv file named 'final_preprocessed_data.csv' that contains the newly preprocessed dataset reduced to 42 features and the target.
 
 ## Model Development
 
