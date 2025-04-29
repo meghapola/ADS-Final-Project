@@ -15,8 +15,13 @@
   - **nyt_data.csv** has title of articles and date of piece from New York Times from 1/1/2020 - 11/3/2020
   -  **raw.zip** zip file of raw data files used to generate the above CSV files 
 
+## EDA
+The file 'ADS_Final_Project_(EDA).ipynb' contains the code used for performing the exploratory data analysis, including initial investigation of the data, visualizations, and unsupervised learning methods. This file uses 'final_data.csv' from 'final_data.csv.zip'.
 
-Model Development
+## Feature Engineering & Preprocessing
+The file ''ADS_Final_Project_(Feature_Engineering_&_Preprocessing).ipynb' contains the code used for performing feature engineering and preprocessing, including creating, transforming, and encoding variables, as well as applying preprocessing techniques where needed. This file uses 'final_data.csv' from 'final_data.csv.zip'. It results in a new csv file named 'final_preprocessed_data.csv' that contains the newly preprocessed dataset reduced to 42 features and the target.
+
+## Model Development
 
 Since the target variable is binary, we tried logistic regression model. However, the R2 is negative meaning the model is performing worse than the baseline. We also tried decidion tree. The result is much more better. The R2 is 0.68 and the MSE is 0.08 meaning we have a decent model. Then we tried random forest. The R2 and MSE are exactly the same as the decision tree. We also tried more complicated model--Grident Boosting. However, Gradient Boosting not only has worse R², but double the error (MSE) of Random Forest. Thus we conclude that simple model works just well. Sicne random forest is more stable than dicision tree, we chose random forest as our final model.
 
