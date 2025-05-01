@@ -1,7 +1,7 @@
 # ADS-Final-Project
 
 
-### Data Acquisition and Preprocessing Files
+### Data Acquisition and Preparation Files
 - **data_processing.ipynb** is Jupyter Notebook containing code to acquire and preprocess data
 - **final_data.csv.zip** is zip file which contains final CSV to be used in EDA and model development 
 - **data** contains:
