@@ -45,7 +45,16 @@ To run this project, ensure you have the following installed:
   - **nyt_mentions.csv** aggregates number of times each candidate was mentioned in the title of a NYT news piece from 1/1/2020 - 11/3/2020
   - **fox_data.csv** has title of article/video news piece and date of piece from Fox News from 1/1/2020 - 11/3/2020
   - **nyt_data.csv** has title of articles and date of piece from New York Times from 1/1/2020 - 11/3/2020
-  -  **raw.zip** zip file of raw data files used to generate the above CSV files 
+  -  **raw.zip** zip file of raw data files used to generate the above CSV files
+ 
+### Data Sources
+- [Harvard Dataverse Election Dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NT66Z3 
+)
+- [2020 US Census Data](https://data.census.gov/table/ACSDP5Y2020.DP05?q=voting+precinct&g=010XX00US$0500000&y=2020
+)
+- [FIPS IDs](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)
+- [The New York Times](https://developer.nytimes.com/get-started)
+- Fox News/Wayback Machine
 
 We utilized election data from the Harvard Dataverse database as well as 2020 US Census data and webscraped Fox News and New York Times news piece information. The overall code for this step is in data_processing.ipynb. The unaggregated data is in the data folder and the raw data is in the raw.zip file. The final data set before preprocessing is in final_data.csv.zip
 
