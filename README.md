@@ -22,9 +22,9 @@ The file 'ADS_Final_Project_(EDA).ipynb' contains the code used for performing t
 The file 'ADS_Final_Project_(Feature_Engineering_&_Preprocessing).ipynb' contains the code used for performing feature engineering and preprocessing, including creating, transforming, and encoding variables, as well as applying preprocessing techniques where needed. This file uses 'final_data.csv' from 'final_data.csv.zip'. It results in a new csv file named 'final_preprocessed_data.csv' that contains the newly preprocessed dataset reduced to 42 features and the target.
 
 ## Model Development
-
-- **Model_DevelopmentGridSearch_04292025Grid.ipynb**: Final Model Development, with three supervised learning models: Decision Tree, Random Forest, Logistic Regression. 
-
+- **Model Development 04282025New.ipynb**: The model development without tuning hyperparameter: Decision Tree, Random Forest, Logistic Regresion
+- **Model_DevelopmentGridSearch_04292025Grid.ipynb**: Final Model Development, with three supervised learning models: Decision Tree, Random Forest, Logistic Regression using grid search and cross validation to tune the hyperparameter. 
+After tuning the hyperparameterm, the accuracy did not change a lot, but relatively close to each other
 Since the target variable is binary, we tried logistic regression model. However, the model is performing worse than the tree models, for example, decidion tree. With decision tree and random forest, the result is much more better. The best accuracy is 0.915 for decision tree and 0.918 for random forest meaning we have a decent model. We also tried Grident Bosting and XGBoost, however, the dataset is too large to run those two models. We also did grid search and cross validation to find the best hyperparameters. Here are the result: Even with a relatively small number of trees, Random Forest achieved the best accuracy. Both Decision Tree and Random Forest used a max_depth of 15, which seems to balance complexity and overfitting. Despite tuning,the accuracy for logistic regression was far behind tree-based models, possibly indicating nonlinear relationships or complex interactions in the data that linear models can't capture well.
 Thus we conclude that simple model works just well. Sicne random forest is more stable than dicision tree, we chose random forest as our final model.
 
