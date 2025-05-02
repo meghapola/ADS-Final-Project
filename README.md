@@ -67,7 +67,7 @@ The file 'ADS_Final_Project_(Feature_Engineering_&_Preprocessing).ipynb' contain
 
 ## Model Development
 - **Model Development 04282025New.ipynb**: The model development without tuning hyperparameter: Decision Tree, Random Forest, Logistic Regresion
-- **Model_DevelopmentGridSearch_04292025Grid.ipynb**: Final Model Development, with three supervised learning models: Decision Tree, Random Forest, Logistic Regression using grid search and cross validation to tune the hyperparameter.
+- **Mo-Copy1.ipynb**: Final Model Development, with three supervised learning models: Decision Tree, Random Forest, Logistic Regression using grid search and cross validation to tune the hyperparameter.
 - **old_models** contains old models used in the course of development:
   - **Model_Development_Logistic_Regression_and_XGB.ipynb** is initial exploration of logistic regression and XGBoost models
   - **Decision_Tree_and_Random_Forest_.ipynb** is initial exploration of decision tree and random forest models 
